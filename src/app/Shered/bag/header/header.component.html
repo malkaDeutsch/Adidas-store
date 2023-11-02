@@ -1,0 +1,55 @@
+
+<div class="header">
+  <img src="../../../assets/logo/8.webp" class="logoPic" (click)="goToLogo()"> 
+</div>
+  <div class="divbag">                     
+    <div  class="profil"><button mat-fab color="warn" (mouseenter)="over()"(mouseleave)="leave()">{{getLeter|async}} </button></div>
+<div class="example-button-row"  >
+       <button mat-raised-button color="#drawer" class="btnBag"  (click)="goToBag()"><mat-icon  matBadge={{numinbag|async}} matBadgeColor="#menu"></mat-icon>
+סל הקניות 
+        <span class="cdk-visually-hidden"></span>
+        </button>
+        <button mat-raised-button color="#drawer" class="btnBag"  (click)="goToProduct()">
+          לחנות המוצרים
+                    <span class="cdk-visually-hidden"></span>
+                    </button>
+                    <button mat-raised-button color="#drawer" class="btnBag"  (click)="goToConect()">
+                      להרשמה\התחברות
+                                <span class="cdk-visually-hidden"></span>
+                                </button>
+    </div>
+        </div>   
+
+
+<div class="footer"><div class="allRes">כל הזכויות שמורות @ </div></div>
+
+
+
+
+
+
+
+
+  
+
+
+
+<!-- <div class="allDitails"> 
+  <mat-card><div class="nameP">{{getDitailProduct.name}}</div>
+       <div class="price">{{getDitailProduct.price}}$</div></mat-card>
+       <div class="titels" >בחר מידה</div>
+  <div class="size"><button  mat-button [matMenuTriggerFor]="menu">מידה</button>
+  <mat-menu #menu="matMenu" >
+   <div *ngFor="let s of getDitailProduct.sizeArr">
+     <button mat-menu-item>{{s}}</button> </div>
+  </mat-menu ></div>
+  <div class="ditails">{{getDitailProduct.ditails}}</div>
+   <mat-paginator
+  [pageSizeOptions]="(getDitailProduct|async).sizeArr" >         
+  </mat-paginator> -->
+  
+  <!-- <div class="pic"><img src=" ../../../assets/addidas/{{getDitailProduct.id}}"></div>
+  
+  <button class="addToBag" (click)="addToBag()">הוסף לסל</button>
+  
+  </div>  -->

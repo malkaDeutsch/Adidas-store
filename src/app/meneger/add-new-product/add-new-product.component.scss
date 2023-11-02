@@ -1,0 +1,84 @@
+.header{
+    background-color: black;
+    width: 100%;
+    height: 10%;
+}
+.logoPic{
+  width: 350px;  
+  height: 148px;
+  margin-left: 1150px;
+
+}
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+.footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 20px;
+    background-color: black
+    
+  }
+  .allRes{
+      color: aliceblue;
+      text-align: center;
+  }
+  body { font: 400 1em/1.5 "Neuton"; background: #cf892d; color: rgba(190, 22, 22, 0.25); text-align: center; margin: 0 }
+
+.btnBag{
+  margin-left: 60px;
+margin-top: 20px;
+
+}
+.divbag{
+  background-color: black;
+  width: 100%;
+  height: 10%;
+  display: flex;
+}
+.profil{
+  margin-left: 70px;
+  margin-right: 100px;
+  margin-bottom: 34px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: large;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:hover {
+  background-color: rgb(86, 186, 223);
+  cursor: pointer;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  table, th, td {
+    border: 2px solid rgb(15, 15, 15);
+    border-collapse: collapse;
+    direction: rtl;
+    text-align: center;
+  }
+  th
+  {
+    background-color: rgb(86, 186, 223);
+   color: white;
+   font-size: large;
+  }
+  .pic{
+width: 60px;
+height:60px;
+
+  }

@@ -1,0 +1,20 @@
+<table >
+
+    <tr>
+      <th>שם מוצר</th>
+      <th>תאור פריט</th>
+      <th>צבע</th>
+      <th>מחיר</th>
+      <th>מידות</th>
+      <th>תמונה</th>
+    </tr>
+    <tr *ngFor="let s of listAllProducts|async"  (click)="editProduct(s.name)">
+        <td  > {{s.name}}</td>
+        <td>{{s.ditails}}</td>
+        <td> {{s.color}} </td>
+        <td> {{s.price}}$ </td>
+        <td> {{s.sizeArr}} </td>
+        <td> <img mat-card-image src="../../../assets/addidas/{{s.id}}" alt="jjj"  class="pic"> </td>
+    </tr>
+</table>
+<div class="footer"><div class="allRes">כל הזכויות שמורות @ </div></div>

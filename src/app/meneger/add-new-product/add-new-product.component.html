@@ -1,0 +1,41 @@
+
+<div class="header">
+    <img src="../../../assets/logo/8.webp" class="logoPic" (click)="goToLogo()"> 
+  </div>
+    <div class="divbag">                     
+      <div  class="profil"><button mat-fab color="warn" (mouseenter)="over()"(mouseleave)="leave()">{{getLeter|async}} </button></div>
+  <div class="example-button-row"  >
+
+          <button mat-raised-button color="#drawer" class="btnBag"  (click)="addAProduct()">
+להוספת מוצר                      <span class="cdk-visually-hidden"></span>
+                      </button>
+                      <button mat-raised-button color="#drawer" class="btnBag"  (click)="goToConect()">
+                        להרשמה\התחברות
+                                  <span class="cdk-visually-hidden"></span>
+                                  </button>
+      </div>
+          </div>   
+    <table >
+
+        <tr>
+          <th>שם מוצר</th>
+          <th>תאור פריט</th>
+          <th>צבע</th>
+          <th>מחיר</th>
+          <th>מידות</th>
+          <th>תמונה</th>
+        </tr>
+        <tr >
+            <td > <br><br>  <input type="text"  [(ngModel)]="name" ></td>
+            <td> <br><br>  <input type="text"  [(ngModel)]="ditails"></td>
+             <td> <br><br>  <input type="text"  [(ngModel)]="color"></td>
+            <td>  <br><br>  <input type="text" [(ngModel)]="price"></td>
+            <td>  <br><br> להוספת מידה <input type="number"  [(ngModel)]="sizeUp">
+            <td>  
+        <br> <br><input type="file"  [(ngModel)]="id"> </td>
+        </tr>
+    </table>
+    <div class="addToBag">  <button mat-raised-button color="#belowMenu"(click)="AddsaveChanges()">להוספת המוצר
+            <span class="cdk-visually-hidden"></span>
+            </button></div>
+    <div class="footer"><div class="allRes">כל הזכויות שמורות @ </div></div>

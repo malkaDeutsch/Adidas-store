@@ -1,0 +1,101 @@
+.example-card {
+ width: 250px;
+ height: 350px;
+ 
+    // max-width: 270px;
+    // display:list-item;
+  //  align-items: unset;
+  // align-items: flex-end;
+  // display: grid;
+   direction: rtl;
+  //  margin-right:100px;
+  //  padding-left: 800px;
+  //  padding-top: 60px;
+  //  -webkit-box-orient: horizontal;
+//  .a{
+// position: fixed;
+// -webkit-box-align: center;
+//  }
+  }
+  .btnPr1{
+background-color:darkgrey;
+ 
+  }
+.do{
+  display: flex;
+}
+  .example-header-image {
+    background-image: url('../../../assets/addidas/logo1.jpg');
+    background-size: cover;
+    
+  }
+  .example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    align-items: flex-start;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }
+  .example-container {
+    width: 500px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .example-sidenav {
+    padding: 20px;
+  }
+  de{
+    font-size: x-large;
+  }
+  titel{
+    font-size:xx-large;
+  }
+  price{
+    font-display: initial;
+    font: optional;
+  }
+  ditails{
+    font-size: medium;
+  }
+  .b{
+    align-items: flex-end;
+  }
+  .btnFavor{
+    size: 4px;
+  }
+ .ppp{
+align-items: center;
+display: flex;
+flex-direction:row ;
+justify-content: space-around;
+align-items: flex-start;
+flex-wrap: wrap;
+margin-top: 50px;
+margin-left: 20px;
+margin-right: 20px;
+float: left;
+  
+ }
+ .picsize{
+  align-items: center;
+   width: 175px;
+   height: 170px;
+ }
+.space{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+ 

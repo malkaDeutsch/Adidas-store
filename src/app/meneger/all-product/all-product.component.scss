@@ -1,0 +1,38 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: large;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  tr:hover {
+  background-color: rgb(86, 186, 223);
+  cursor: pointer;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  table, th, td {
+    border: 2px solid rgb(15, 15, 15);
+    border-collapse: collapse;
+    direction: rtl;
+    text-align: center;
+  }
+  th
+  {
+    background-color: rgb(86, 186, 223);
+   color: white;
+   font-size: large;
+  }
+  .pic{
+width: 60px;
+height:60px;
+
+  }

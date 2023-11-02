@@ -1,0 +1,26 @@
+<app-headar-maneger></app-headar-maneger>  
+  <table >
+
+        <tr>
+          <th>שם מוצר</th>
+          <th>תאור פריט</th>
+          <th>צבע</th>
+          <th>מחיר</th>
+          <th>מידות</th>
+          <th>תמונה</th>
+        </tr>
+        <tr >
+            <td > {{getDitailProduct.name}} <br><br>  <input type="text"  [(ngModel)]="name" ></td>
+            <td>{{getDitailProduct.ditails}} <br><br>  <input type="text"  [(ngModel)]="ditails"></td>
+             <td> {{getDitailProduct.color}}  <br><br>  <input type="text"  [(ngModel)]="color"></td>
+            <td> {{getDitailProduct.price}}$  <br><br>  <input type="text" [(ngModel)]="price"  value="{{getDitailProduct.price}}"></td>
+            <td> {{getDitailProduct.sizeArr}}  <br><br> להוספת מידה <input type="number"  [(ngModel)]="sizeUp">
+                <br><br>להסרת מידה <input type="number"   [(ngModel)]="sizeDoun"></td>
+            <td> <img mat-card-image src="../../../assets/addidas/{{getDitailProduct.id}}" alt="jjj"  class="pic">
+        <br> <br><input type="file"> </td>
+        </tr>
+    </table>
+    <div class="addToBag">  <button mat-raised-button color="#belowMenu"(click)="saveChanges()"> שמור שינויים  
+            <span class="cdk-visually-hidden"></span>
+            </button></div>
+    <div class="footer"><div class="allRes">כל הזכויות שמורות @ </div></div>

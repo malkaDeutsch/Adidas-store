@@ -1,0 +1,101 @@
+p {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(62, 14, 151, 0.25);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 38%;
+	left: 30%;
+	width: 60em;
+	margin: 0 0 0 -20em;
+  
+  span {
+
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image */
+
+	  background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image */
+
+	  -webkit-text-fill-color: rgba(49, 134, 231, 0.719);
+	  -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+}
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+.open{
+
+// margin-left: 800px;
+// font-size: x-small;
+// text-transform: uppercase;
+// letter-spacing: .5em;
+// display: inline-block;
+// border: 4px double rgba(62, 14, 151, 0.25);
+// border-width: 4px 0;
+// padding: 1.5em 0em;
+// position: absolute;
+// top: 38%;
+// left: 30%;
+// width: 60em;
+// margin: 0 0 0 -20em;
+font: 700 4em/1 "Oswald", sans-serif;
+letter-spacing: 0;
+padding: .25em 0 .325em;
+display: block;
+margin: 0 auto;
+text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+}
+.picOpen{
+	font-size: xx-large;
+
+	margin-left: 34px;
+}
+.pic{
+opacity: unset;
+	border: 8px;
+	border-radius: 7px;
+}
+.labal{
+
+margin-left: 90px;
+margin-bottom: 15px;
+font-size: xx-large;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.all{
+	margin-top: 445px;	align-items: center;
+	display: flex;
+
+}
+.picAdidas{
+float: right;
+}
+.picAddve{
+width: 100%;
+height: 100%;
+	// margin-top: 500px;
+	// margin-left: 150px;
+}

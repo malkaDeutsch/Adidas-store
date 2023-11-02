@@ -1,0 +1,74 @@
+// // button
+section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  
+  .example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+
+.example-button-row a {
+  margin-right: 8px;
+}
+.allProductsBag{
+  text-align: center;
+  margin-right: 957px;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 78px;
+}
+.titlProBag{
+  font-size: x-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom:12px;
+  margin-top: 16px;
+  // margin-right: 957px;
+  padding: auto;
+}
+.pic{
+  width: 1px;
+  height: 1px;
+}
+.price{
+  font-size: larger;
+}
+.evry{
+  margin-top: 30px;
+}
+.btnBag{
+border-bottom-style: outset;
+  border-bottom-width: 3px;
+  
+}
+.toPay{
+margin-top: 20px;
+}
+.picAddve{
+ float: right;
+ width: 30%;
+ height: 90%;
+}

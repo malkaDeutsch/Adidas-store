@@ -1,0 +1,24 @@
+<app-header></app-header>
+<img src="../../../assets/addidas/see.jpg"   class="picAddve">
+
+<div class="allProductsBag">   
+  <div *ngFor="let i of arrItemsBag|async">
+   
+    <div class="evry"> {{i.price}} {{i.name}} {{i.amount}} </div> </div> 
+ <!-- <div class="pic"><img src=" ../../../assets/addidas/{{i.id}}"></div>-->
+
+<div >   <div class="titlProBag">לתשלום <div class="price">
+  <br>$:{{price|async}}</div> </div> </div>
+
+<button mat-raised-button color="#belowMenu"(click)="continue()" >
+  המשך לקנות
+            <span class="cdk-visually-hidden"></span>
+</button>
+<div class="toPay"><button mat-raised-button color="#belowMenu"(click)="goToPay()" >
+              לתשלום מאובטח
+       <span class="cdk-visually-hidden"></span>
+</button></div>
+
+
+  
+

@@ -1,0 +1,99 @@
+
+<app-header></app-header>
+<div class="allDitails"> 
+<div class="nameP">{{getDitailProduct.name}}</div>
+<div class="ditails">{{getDitailProduct.ditails}}</div>
+<div class="price">{{getDitailProduct.price}}$</div>
+<div class="addToBag">  <button mat-raised-button color="#belowMenu"(click)="addToBag()">הוסף לסל  
+            <span class="cdk-visually-hidden"></span>
+            </button></div>
+<div class="pic"><img src=" ../../../assets/addidas/{{getDitailProduct.id}}"></div>
+
+
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <button class="addToBag" (click)="goToUser()"> users</button> -->
+<!-- <button>dgjdlg</button> -->
+  <!-- <p>
+    <mat-toolbar>
+     <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+     <mat-icon>share</mat-icon>
+   </button>
+  </mat-toolbar>
+  </p>
+  -->
+  <!-- <button mat-button [matMenuTriggerFor]="belowMenu">מידות</button>
+<mat-menu #belowMenu="matMenu" yPosition="below">
+  <button mat-menu-item>36</button>
+  <button mat-menu-item>37</button>
+</mat-menu>
+<mat-icon class="mat-icon-rtl-mirror" svgIcon="thumb-up"></mat-icon>
+<mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+<button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+  <mat-icon>more_vert</mat-icon>
+</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>
+    <mat-icon>dialpad</mat-icon>
+    <span>Redial</span>
+  </button>
+  <button mat-menu-item disabled>
+    <mat-icon>voicemail</mat-icon>
+    <span>Check voice mail</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>notifications_off</mat-icon>
+    <span>Disable alerts</span>
+  </button>
+</mat-menu>
+<mat-paginator [length]="100"
+              [pageSize]="10"
+              [pageSizeOptions]="[5, 10, 25, 100]"
+              aria-label="Select page">
+</mat-paginator>   -->
+<!-- radio
+<label id="example-radio-group-label">Pick your favorite season</label>
+<mat-radio-group
+  aria-labelledby="example-radio-group-label"
+  class="example-radio-group"
+   [(ngModel)]= "favoriteSeason"> -->
+  <!-- <mat-radio-button class="example-radio-button" *ngFor="let season of seasons" [value]="season">
+    {{season}}
+  </mat-radio-button>
+</mat-radio-group>  -->
+<!-- <div>Your favorite season is: uuu</div> 
+<mat-drawer-container class="example-container" autosize>
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+    <p>Auto-resizing sidenav</p>
+    <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
+    <button (click)="showFiller = !showFiller" mat-raised-button>
+      Toggle extra text
+    </button>
+  </mat-drawer> -->
+
+  <!-- <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Toggle sidenav
+    </button>
+  </div>
+
+</mat-drawer-container>  -->

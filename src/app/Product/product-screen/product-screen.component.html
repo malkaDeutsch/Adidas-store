@@ -1,0 +1,24 @@
+
+<app-header></app-header>
+<div class="ppp" >  <div class="space" *ngFor="let i of picArr|async " >
+  <mat-card class="example-card"  >
+    <mat-card-header  >
+      <div mat-card-avatar class="example-header-image" ></div>
+      <mat-card-title ><titel>{{i.name}} </titel></mat-card-title>
+      <mat-card-subtitle><de> מחיר:</de><price> {{i.price}} </price>$</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="../../../assets/addidas/{{i.id}}" alt="Photo of a Shiba Inu" class="picsize">
+    <mat-card-content>
+      <p>
+   <ditails>{{i.ditails}}</ditails>
+      </p>
+    </mat-card-content>
+    <mat-card-actions class="b">
+      <button mat-button  class="btnPr1"(click)="func_show_product_big(i.name)">פרטי מוצר</button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+</div>
+
+
+
